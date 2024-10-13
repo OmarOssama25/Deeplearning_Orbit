@@ -53,3 +53,19 @@ The project is built using the following Python libraries. Make sure to install 
 
 ### To install the required libraries, use the following commands:
       !pip install pandas tensorflow scikit-learn
+## Project Workflow
+
+### Data Loading:
+      The dataset is loaded from a CSV file using pandas.
+
+### Data Preprocessing:
+      The dataset is inspected, including checking for null values, basic statistics, and ranges.
+
+### Model Creation:
+         A TensorFlow model is built using Keras with dense layers to predict the y values from time_steps.
+
+### Training and Evaluation:
+      The model is trained using Mean Squared Error (MSE) as the loss function, and the performance is evaluated using metrics like MSE, MAE (Mean Absolute Error), and R2 score.
+
+### Prediction:
+      The model predicts new y values based on unseen time_steps to validate its performance.
