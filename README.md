@@ -26,19 +26,19 @@ The dataset is loaded from a CSV file: `orbit - orbit.csv`.
 
 ### Running on Google Colab
 
-1. **Open Google Colab**: 
-   Visit [Google Colab](https://colab.research.google.com/) and sign in with your Google account.
+### 1. **Open Google Colab**: 
+      Visit [Google Colab](https://colab.research.google.com/) and sign in with your Google account.
 
-2. **Upload Notebook**:
-   - Click on "File" → "Upload Notebook."
-   - Upload the `DeepLearning_Assignment1_Orbit.ipynb` notebook.
+### 2. **Upload Notebook**:
+      - Click on "File" → "Upload Notebook."
+      - Upload the `DeepLearning_Assignment1_Orbit.ipynb` notebook.
 
-3. **Upload the Dataset**:
-   - Upload the `orbit - orbit.csv` file to the Colab environment by clicking on the file icon on the left sidebar.
+### 3. **Upload the Dataset**:
+      - Upload the `orbit - orbit.csv` file to the Colab environment by clicking on the file icon on the left sidebar.
 
-4. **Run the Cells**:
-   - Once the notebook is uploaded, execute each cell sequentially by clicking the "Run" button or using `Ctrl + Enter` to run each cell.
-   - The notebook will preprocess the data, train the model using TensorFlow, and then display the evaluation metrics and predictions.
+### 4. **Run the Cells**:
+      - Once the notebook is uploaded, execute each cell sequentially by clicking the "Run" button or using `Ctrl + Enter` to run each cell.
+      - The notebook will preprocess the data, train the model using TensorFlow, and then display the evaluation metrics and predictions.
 
 ## Dependencies and Installation Instructions
 
